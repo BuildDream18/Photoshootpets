@@ -1,0 +1,27 @@
+.p_urchase {
+    width: 100%;
+    background-color: #1c2237;
+    border-top: 1px solid #6d6d6d;
+}
+
+.purchase__head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0 3% 0;
+}
+
+.purchase__h {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.text__color {
+    color: red;
+}
+
+.spacing {
+    margin: 0 5px;
+}

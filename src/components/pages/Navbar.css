@@ -1,0 +1,58 @@
+.navbar {
+  background: #1c2237;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.spaceBetween {
+  margin-right: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .navbar {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .spaceBetween {
+    font-size: 20px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  .navbar {
+    font-size: 2rem;
+    padding: 15px;
+  }
+
+  .spaceBetween {
+    font-size: 2rem;
+  }
+}
+
+/* Default styles - Show text for larger screens */
+.logo-text {
+  display: inline;
+}
+
+/* Hide text for screens smaller than 960px */
+@media (max-width: 768px) {
+  .logo-text {
+    display: none;
+  }
+}

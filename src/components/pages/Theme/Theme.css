@@ -1,0 +1,97 @@
+.card__container {
+  border-top: 1px solid #6d6d6d;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 20px 0 20px 0;
+  background-color: #1c2237;
+}
+
+.card__col, .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body {
+  border-top: 1px solid #6d6d6d;
+}
+
+.darkBg {
+  background-color: #1c2237;
+}
+
+.card {
+  color: #333;
+  cursor: pointer;
+  width: 70%;
+  transition: all 0.2s ease-out;
+  border: 1px solid #ddd;
+}
+.card:hover {
+  box-shadow: 0 0 4em 0px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+.card:active {
+  transform: scale(1.01) translateY(0.2rem);
+}
+
+.card__container .card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Adjustments for medium screens */
+@media (max-width: 768px) {
+  .card__container .card-img-top {
+    height: 150px;
+    width: 100%;
+  }
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 576px) {
+  .card__container .card-img-top {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+/* Add custom styling for modal size */
+.modal-lg {
+  max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal-lg {
+    max-width: 1000px;
+  }
+}
+
+.theme__modal {
+  background-color:  #1c2237;
+}
+
+.hold {
+  padding-top: 3%;
+  color: white;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.hold__h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
